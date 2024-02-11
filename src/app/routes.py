@@ -1,6 +1,6 @@
 from app import app
 
 
-@app.route('/')
+@app.route('/status', method = ["GET"])
 def index():
-    return 'Hello, World!'
+    return 'OK'
