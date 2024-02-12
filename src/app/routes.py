@@ -3,7 +3,7 @@ from flask import request, make_response
 from .app_config import CorsConfig
 
 
-@app.route('/')
+@app.route('/status', methods=['GET'])
 def index():
     return 'Hello, World!'
 
