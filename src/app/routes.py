@@ -5,7 +5,7 @@ from .app_config import CorsConfig
 
 @app.route('/status', methods=['GET'])
 def index():
-    return 'Hello, World!'
+    return 'Ok'
 
 
 @app.after_request
